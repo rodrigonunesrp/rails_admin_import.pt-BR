@@ -30,19 +30,19 @@ pt-BR:
         create: "Criado %{name}"
         update: "Atualizado %{name}"
       import_error:
-        create: "Falha ao criar% {name}:% {error}"
-        update: "Falha ao atualizar %{name}: %{error}"
-        general: "Erro durante a importação:% {error}"
+        create: "Falha ao criar %{name}:%{error}"
+        update: "Falha ao atualizar %{name}:%{error}"
+        general: "Erro durante a importação:%{error}"
         old_import_hook: >
-          "A importação% {model}.% {Method} deve levar apenas um argumento.
+          "A importação %{model}. %{method} deve levar apenas um argumento.
           A informação não foi importada corretamente.
           Veja a seção Atualizada no arquivo readme em Rails Admin Import."
-      association_not_found: "Associação não encontrada.% {Error}"
+      association_not_found: "Associação não encontrada. %{error}"
       help:
         model_fields: Os campos acima devem ser incluídos no arquivo de importação.
         association_fields: >
           Esses campos serão combinados com outras tabelas no banco de dados, de acordo com os atributos selecionados abaixo.
           Para muitas associações, você deve incluir várias colunas com o mesmo cabeçalho no arquivo CSV.
         update_if_exists: Atualizar registros encontrados com o campo de pesquisa abaixo, em vez de criar novos registros
-        file_limit: "Por favor limite o arquivo de upload para% {limite} linhas."
+        file_limit: "Por favor limite o arquivo de upload para %{limit} linhas."
         encoding:   Escolha o arquivo para codificar. Deixe em branco para detecção automática. Ignorado por JSON.
